@@ -1,0 +1,45 @@
+/* Overall body styling */
+body {
+    background-color: #f0f0f0;  /* Light background color */
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 50px 0;  /* Padding to center the content vertically */
+}
+
+/* Styling for the body class "fond2" */
+.fond2 {
+    background-color: #282828;  /* Dark background */
+    color: white;  /* White text */
+}
+
+/* General link styling */
+a {
+    text-decoration: none;  /* Removes underline from links */
+    font-size: 18px;  /* Larger font for better readability */
+    color: #5677ed;  /* Blue text color */
+    border: 2px solid #5677ed;  /* Add a border around links */
+    padding: 10px 20px;  /* Add padding around links */
+    border-radius: 5px;  /* Rounded corners */
+    display: inline-block;  /* Ensure spacing around the links */
+    margin: 10px 0;  /* Space between links */
+    transition: background-color 0.3s, color 0.3s;  /* Smooth transition for hover */
+}
+
+/* Hover effect for the links */
+a:hover {
+    background-color: #5677ed;  /* Darker background on hover */
+    color: white;  /* White text on hover */
+}
+
+/* Add space between the links */
+a + a {
+    margin-top: 20px;  /* Space between the links */
+}
+
+/* Padding to center and give space around the page */
+body {
+    padding: 20px;
+    margin: 0;
+}
